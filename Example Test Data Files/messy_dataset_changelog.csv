@@ -1,0 +1,372 @@
+row_index,column,old_value,new_value,operation,reason
+180.0,ALL,empty row,REMOVED,structural,Completely empty row removed
+181.0,ALL,empty row,REMOVED,structural,Completely empty row removed
+182.0,ALL,empty row,REMOVED,structural,Completely empty row removed
+,Unused_Field,empty column,REMOVED,structural,100% null column removed
+0.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+1.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+2.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+6.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+8.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+9.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+19.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+21.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+27.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+30.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+35.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+37.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+38.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+41.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+42.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+43.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+44.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+46.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+47.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+50.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+57.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+61.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+62.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+63.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+65.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+66.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+67.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+68.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+69.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+71.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+72.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+75.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+77.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+78.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+83.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+86.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+88.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+89.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+91.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+94.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+96.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+98.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+100.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+102.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+105.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+111.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+112.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+114.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+115.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+116.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+120.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+122.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+123.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+127.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+128.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+130.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+131.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+133.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+138.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+140.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+143.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+145.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+146.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+149.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+150.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+154.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+155.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+156.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+157.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+160.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+162.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+163.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+167.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+168.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+170.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+171.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+173.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+178.0,Vendor_Name,'   ',NaN,type_fix,Whitespace-only string → NaN
+4.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+5.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+6.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+7.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+9.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+11.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+12.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+13.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+14.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+16.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+17.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+20.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+22.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+23.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+26.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+28.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+30.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+32.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+33.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+34.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+36.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+39.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+40.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+43.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+44.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+45.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+46.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+49.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+51.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+55.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+57.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+59.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+62.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+63.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+65.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+66.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+67.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+71.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+73.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+74.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+76.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+77.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+78.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+81.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+82.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+83.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+85.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+86.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+87.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+88.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+89.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+93.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+96.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+97.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+99.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+101.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+102.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+105.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+106.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+108.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+110.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+114.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+118.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+123.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+126.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+127.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+128.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+130.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+132.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+135.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+139.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+143.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+144.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+146.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+147.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+148.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+149.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+152.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+153.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+156.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+158.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+163.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+166.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+167.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+170.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+172.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+175.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+176.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+179.0,Unit_Price,'   ',NaN,type_fix,Whitespace-only string → NaN
+5.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+12.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+14.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+15.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+23.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+24.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+32.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+33.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+34.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+35.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+43.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+44.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+51.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+55.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+61.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+66.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+67.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+69.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+70.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+72.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+73.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+76.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+78.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+79.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+81.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+83.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+86.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+88.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+89.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+90.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+92.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+95.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+99.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+103.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+106.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+107.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+110.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+111.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+114.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+117.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+124.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+129.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+134.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+138.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+142.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+144.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+146.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+148.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+152.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+154.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+156.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+157.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+164.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+169.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+174.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+178.0,Status,'   ',NaN,type_fix,Whitespace-only string → NaN
+0.0,Unit_Price,390.6,390.6,type_conversion,String → numeric
+1.0,Unit_Price,71.6,71.6,type_conversion,String → numeric
+2.0,Unit_Price,270.35,270.35,type_conversion,String → numeric
+3.0,Unit_Price,2000000.0,2000000.0,type_conversion,String → numeric
+8.0,Unit_Price,136.9,136.9,type_conversion,String → numeric
+15.0,Unit_Price,167.11,167.11,type_conversion,String → numeric
+18.0,Unit_Price,151.95,151.95,type_conversion,String → numeric
+19.0,Unit_Price,474.68,474.68,type_conversion,String → numeric
+21.0,Unit_Price,243.05,243.05,type_conversion,String → numeric
+24.0,Unit_Price,425.04,425.04,type_conversion,String → numeric
+25.0,Unit_Price,328.03,328.03,type_conversion,String → numeric
+27.0,Unit_Price,268.7,268.7,type_conversion,String → numeric
+29.0,Unit_Price,147.64,147.64,type_conversion,String → numeric
+35.0,Unit_Price,309.12,309.12,type_conversion,String → numeric
+37.0,Unit_Price,364.23,364.23,type_conversion,String → numeric
+38.0,Unit_Price,46.82,46.82,type_conversion,String → numeric
+41.0,Unit_Price,0.01,0.01,type_conversion,String → numeric
+47.0,Unit_Price,130.42,130.42,type_conversion,String → numeric
+48.0,Unit_Price,297.09,297.09,type_conversion,String → numeric
+50.0,Unit_Price,310.0,310.0,type_conversion,String → numeric
+52.0,Unit_Price,284.65,284.65,type_conversion,String → numeric
+53.0,Unit_Price,288.35,288.35,type_conversion,String → numeric
+54.0,Unit_Price,0.01,0.01,type_conversion,String → numeric
+56.0,Unit_Price,383.14,383.14,type_conversion,String → numeric
+58.0,Unit_Price,248.62,248.62,type_conversion,String → numeric
+60.0,Unit_Price,465.96,465.96,type_conversion,String → numeric
+61.0,Unit_Price,64.27,64.27,type_conversion,String → numeric
+64.0,Unit_Price,330.64,330.64,type_conversion,String → numeric
+68.0,Unit_Price,170.15,170.15,type_conversion,String → numeric
+70.0,Unit_Price,382.45,382.45,type_conversion,String → numeric
+72.0,Unit_Price,185.28,185.28,type_conversion,String → numeric
+75.0,Unit_Price,78.15,78.15,type_conversion,String → numeric
+79.0,Unit_Price,366.19,366.19,type_conversion,String → numeric
+80.0,Unit_Price,278.73,278.73,type_conversion,String → numeric
+84.0,Unit_Price,191.3,191.3,type_conversion,String → numeric
+91.0,Unit_Price,65.35,65.35,type_conversion,String → numeric
+92.0,Unit_Price,296.19,296.19,type_conversion,String → numeric
+94.0,Unit_Price,11.09,11.09,type_conversion,String → numeric
+95.0,Unit_Price,229.89,229.89,type_conversion,String → numeric
+98.0,Unit_Price,231.98,231.98,type_conversion,String → numeric
+103.0,Unit_Price,59.74,59.74,type_conversion,String → numeric
+104.0,Unit_Price,498.53,498.53,type_conversion,String → numeric
+107.0,Unit_Price,419.26,419.26,type_conversion,String → numeric
+109.0,Unit_Price,499.56,499.56,type_conversion,String → numeric
+111.0,Unit_Price,326.81,326.81,type_conversion,String → numeric
+112.0,Unit_Price,49.77,49.77,type_conversion,String → numeric
+113.0,Unit_Price,449.03,449.03,type_conversion,String → numeric
+116.0,Unit_Price,75.8,75.8,type_conversion,String → numeric
+117.0,Unit_Price,389.5,389.5,type_conversion,String → numeric
+119.0,Unit_Price,455.77,455.77,type_conversion,String → numeric
+120.0,Unit_Price,11.09,11.09,type_conversion,String → numeric
+121.0,Unit_Price,297.09,297.09,type_conversion,String → numeric
+122.0,Unit_Price,401.44,401.44,type_conversion,String → numeric
+125.0,Unit_Price,465.96,465.96,type_conversion,String → numeric
+129.0,Unit_Price,389.5,389.5,type_conversion,String → numeric
+131.0,Unit_Price,2000000.0,2000000.0,type_conversion,String → numeric
+133.0,Unit_Price,78.15,78.15,type_conversion,String → numeric
+134.0,Unit_Price,382.45,382.45,type_conversion,String → numeric
+136.0,Unit_Price,2000000.0,2000000.0,type_conversion,String → numeric
+137.0,Unit_Price,330.64,330.64,type_conversion,String → numeric
+138.0,Unit_Price,309.12,309.12,type_conversion,String → numeric
+140.0,Unit_Price,364.23,364.23,type_conversion,String → numeric
+141.0,Unit_Price,383.14,383.14,type_conversion,String → numeric
+142.0,Unit_Price,419.26,419.26,type_conversion,String → numeric
+145.0,Unit_Price,0.01,0.01,type_conversion,String → numeric
+150.0,Unit_Price,243.05,243.05,type_conversion,String → numeric
+154.0,Unit_Price,2000000.0,2000000.0,type_conversion,String → numeric
+155.0,Unit_Price,46.82,46.82,type_conversion,String → numeric
+157.0,Unit_Price,2000000.0,2000000.0,type_conversion,String → numeric
+159.0,Unit_Price,147.64,147.64,type_conversion,String → numeric
+160.0,Unit_Price,11.09,11.09,type_conversion,String → numeric
+161.0,Unit_Price,297.09,297.09,type_conversion,String → numeric
+162.0,Unit_Price,0.01,0.01,type_conversion,String → numeric
+164.0,Unit_Price,425.04,425.04,type_conversion,String → numeric
+165.0,Unit_Price,465.96,465.96,type_conversion,String → numeric
+169.0,Unit_Price,389.5,389.5,type_conversion,String → numeric
+171.0,Unit_Price,2000000.0,2000000.0,type_conversion,String → numeric
+173.0,Unit_Price,0.01,0.01,type_conversion,String → numeric
+174.0,Unit_Price,382.45,382.45,type_conversion,String → numeric
+177.0,Unit_Price,0.01,0.01,type_conversion,String → numeric
+178.0,Unit_Price,309.12,309.12,type_conversion,String → numeric
+4.0,Quantity,-5.0,5.0,type_fix,Negative quantity → absolute value
+54.0,Quantity,-5.0,5.0,type_fix,Negative quantity → absolute value
+86.0,Quantity,-5.0,5.0,type_fix,Negative quantity → absolute value
+87.0,Quantity,-5.0,5.0,type_fix,Negative quantity → absolute value
+95.0,Quantity,-5.0,5.0,type_fix,Negative quantity → absolute value
+96.0,Quantity,-5.0,5.0,type_fix,Negative quantity → absolute value
+97.0,Quantity,-5.0,5.0,type_fix,Negative quantity → absolute value
+105.0,Quantity,-5.0,5.0,type_fix,Negative quantity → absolute value
+112.0,Quantity,-5.0,5.0,type_fix,Negative quantity → absolute value
+155.0,Quantity,-5.0,5.0,type_fix,Negative quantity → absolute value
+54.0,Total_Amount,-0.05,-0.05,flag,Negative Total_Amount flagged
+95.0,Total_Amount,-1149.45,-1149.45,flag,Negative Total_Amount flagged
+112.0,Total_Amount,-248.85,-248.85,flag,Negative Total_Amount flagged
+155.0,Total_Amount,-234.1,-234.1,flag,Negative Total_Amount flagged
+120.0,ALL,Order_ID=ORD-1094,REMOVED,deduplication,Duplicate removed (kept first)
+125.0,ALL,Order_ID=ORD-1060,REMOVED,deduplication,Duplicate removed (kept first)
+126.0,ALL,Order_ID=ORD-1040,REMOVED,deduplication,Duplicate removed (kept first)
+129.0,ALL,Order_ID=ORD-1117,REMOVED,deduplication,Duplicate removed (kept first)
+130.0,ALL,Order_ID=ORD-1062,REMOVED,deduplication,Duplicate removed (kept first)
+133.0,ALL,Order_ID=ORD-1075,REMOVED,deduplication,Duplicate removed (kept first)
+134.0,ALL,Order_ID=ORD-1070,REMOVED,deduplication,Duplicate removed (kept first)
+135.0,ALL,Order_ID=ORD-1036,REMOVED,deduplication,Duplicate removed (kept first)
+137.0,ALL,Order_ID=ORD-1064,REMOVED,deduplication,Duplicate removed (kept first)
+138.0,ALL,Order_ID=ORD-1035,REMOVED,deduplication,Duplicate removed (kept first)
+139.0,ALL,Order_ID=ORD-1016,REMOVED,deduplication,Duplicate removed (kept first)
+140.0,ALL,Order_ID=ORD-1037,REMOVED,deduplication,Duplicate removed (kept first)
+141.0,ALL,Order_ID=ORD-1056,REMOVED,deduplication,Duplicate removed (kept first)
+142.0,ALL,Order_ID=ORD-1107,REMOVED,deduplication,Duplicate removed (kept first)
+143.0,ALL,Order_ID=ORD-1065,REMOVED,deduplication,Duplicate removed (kept first)
+144.0,ALL,Order_ID=ORD-1076,REMOVED,deduplication,Duplicate removed (kept first)
+146.0,ALL,Order_ID=ORD-1066,REMOVED,deduplication,Duplicate removed (kept first)
+147.0,ALL,Order_ID=ORD-1118,REMOVED,deduplication,Duplicate removed (kept first)
+148.0,ALL,Order_ID=ORD-1081,REMOVED,deduplication,Duplicate removed (kept first)
+149.0,ALL,Order_ID=ORD-1071,REMOVED,deduplication,Duplicate removed (kept first)
+150.0,ALL,Order_ID=ORD-1021,REMOVED,deduplication,Duplicate removed (kept first)
+151.0,ALL,Order_ID=ORD-1074,REMOVED,deduplication,Duplicate removed (kept first)
+152.0,ALL,Order_ID=ORD-1090,REMOVED,deduplication,Duplicate removed (kept first)
+153.0,ALL,Order_ID=ORD-1082,REMOVED,deduplication,Duplicate removed (kept first)
+156.0,ALL,Order_ID=ORD-1089,REMOVED,deduplication,Duplicate removed (kept first)
+158.0,ALL,Order_ID=ORD-1093,REMOVED,deduplication,Duplicate removed (kept first)
+159.0,ALL,Order_ID=ORD-1029,REMOVED,deduplication,Duplicate removed (kept first)
+160.0,ALL,Order_ID=ORD-1094,REMOVED,deduplication,Duplicate removed (kept first)
+161.0,ALL,Order_ID=ORD-1048,REMOVED,deduplication,Duplicate removed (kept first)
+163.0,ALL,Order_ID=ORD-1102,REMOVED,deduplication,Duplicate removed (kept first)
+164.0,ALL,Order_ID=ORD-1024,REMOVED,deduplication,Duplicate removed (kept first)
+165.0,ALL,Order_ID=ORD-1060,REMOVED,deduplication,Duplicate removed (kept first)
+166.0,ALL,Order_ID=ORD-1040,REMOVED,deduplication,Duplicate removed (kept first)
+167.0,ALL,Order_ID=ORD-1041,REMOVED,deduplication,Duplicate removed (kept first)
+168.0,ALL,Order_ID=ORD-1077,REMOVED,deduplication,Duplicate removed (kept first)
+169.0,ALL,Order_ID=ORD-1117,REMOVED,deduplication,Duplicate removed (kept first)
+170.0,ALL,Order_ID=ORD-1062,REMOVED,deduplication,Duplicate removed (kept first)
+172.0,ALL,Order_ID=ORD-1003,REMOVED,deduplication,Duplicate removed (kept first)
+174.0,ALL,Order_ID=ORD-1070,REMOVED,deduplication,Duplicate removed (kept first)
+175.0,ALL,Order_ID=ORD-1036,REMOVED,deduplication,Duplicate removed (kept first)
+176.0,ALL,Order_ID=ORD-1049,REMOVED,deduplication,Duplicate removed (kept first)
+178.0,ALL,Order_ID=ORD-1035,REMOVED,deduplication,Duplicate removed (kept first)
+179.0,ALL,Order_ID=ORD-1016,REMOVED,deduplication,Duplicate removed (kept first)
+3.0,Total_Amount,4000000.0,4000000.0,flag,"Outlier (outside [-14493.47, 26987.50])"
+126.0,Total_Amount,20000000.0,20000000.0,flag,"Outlier (outside [-14493.47, 26987.50])"
+128.0,Total_Amount,28000000.0,28000000.0,flag,"Outlier (outside [-14493.47, 26987.50])"
+130.0,Total_Amount,26000000.0,26000000.0,flag,"Outlier (outside [-14493.47, 26987.50])"
+132.0,Total_Amount,16000000.0,16000000.0,flag,"Outlier (outside [-14493.47, 26987.50])"
+134.0,Total_Amount,20000000.0,20000000.0,flag,"Outlier (outside [-14493.47, 26987.50])"

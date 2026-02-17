@@ -1,0 +1,345 @@
+{
+  "summary": {
+    "total_rows": 135,
+    "total_columns": 10,
+    "memory_kb": 60.1,
+    "columns": [
+      {
+        "name": "Order_ID",
+        "dtype": "str",
+        "non_null": 135,
+        "unique": 120,
+        "sample_values": [
+          "ORD-1000",
+          "ORD-1001",
+          "ORD-1002"
+        ]
+      },
+      {
+        "name": "Order_Date",
+        "dtype": "str",
+        "non_null": 135,
+        "unique": 62,
+        "sample_values": [
+          "2024-01-09",
+          "2024-03-10",
+          "2024-02-28"
+        ]
+      },
+      {
+        "name": "Vendor_Name",
+        "dtype": "str",
+        "non_null": 118,
+        "unique": 5,
+        "sample_values": [
+          "Wayne Ent",
+          "Acme Corp",
+          "Acme Corp"
+        ]
+      },
+      {
+        "name": "Unit_Price",
+        "dtype": "float64",
+        "non_null": 120,
+        "unique": 101,
+        "sample_values": [
+          390.6,
+          71.6,
+          270.35
+        ]
+      },
+      {
+        "name": "Quantity",
+        "dtype": "str",
+        "non_null": 135,
+        "unique": 46,
+        "sample_values": [
+          "15",
+          "33",
+          "45"
+        ]
+      },
+      {
+        "name": "Total_Amount",
+        "dtype": "float64",
+        "non_null": 116,
+        "unique": 102,
+        "sample_values": [
+          5859.0,
+          2362.8,
+          12165.75
+        ]
+      },
+      {
+        "name": "Currency",
+        "dtype": "str",
+        "non_null": 135,
+        "unique": 3,
+        "sample_values": [
+          "USD",
+          "EUR",
+          "GBP"
+        ]
+      },
+      {
+        "name": "Warehouse_ID",
+        "dtype": "str",
+        "non_null": 135,
+        "unique": 4,
+        "sample_values": [
+          "WH-CA",
+          "WH-FL",
+          "WH-CA"
+        ]
+      },
+      {
+        "name": "Ship_Date",
+        "dtype": "str",
+        "non_null": 115,
+        "unique": 62,
+        "sample_values": [
+          "2024-01-13",
+          "2024-03-17",
+          "2024-03-05"
+        ]
+      },
+      {
+        "name": "Status",
+        "dtype": "str",
+        "non_null": 135,
+        "unique": 4,
+        "sample_values": [
+          "SHIPPED",
+          "PENDING",
+          "SHIPPED"
+        ]
+      }
+    ],
+    "quality_score": 45,
+    "completeness_pct": 94.7,
+    "issues_found": 7
+  },
+  "missing_values": [
+    {
+      "column": "Vendor_Name",
+      "count": 17,
+      "percentage": 12.59,
+      "severity": "MEDIUM",
+      "pattern": "Random distribution"
+    },
+    {
+      "column": "Unit_Price",
+      "count": 15,
+      "percentage": 11.11,
+      "severity": "MEDIUM",
+      "pattern": "Random distribution"
+    },
+    {
+      "column": "Total_Amount",
+      "count": 19,
+      "percentage": 14.07,
+      "severity": "MEDIUM",
+      "pattern": "Random distribution"
+    },
+    {
+      "column": "Ship_Date",
+      "count": 20,
+      "percentage": 14.81,
+      "severity": "MEDIUM",
+      "pattern": "Random distribution"
+    }
+  ],
+  "duplicates": {
+    "exact_duplicates": 14,
+    "duplicate_groups": [
+      {
+        "rows": [
+          0,
+          130
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          9,
+          134
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          25,
+          127
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          32,
+          132
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          50,
+          120
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          54,
+          129
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          56,
+          124
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          62,
+          125
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          65,
+          123
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          73,
+          128
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          95,
+          122
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          99,
+          131
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          109,
+          121
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          117,
+          133
+        ],
+        "count": 2
+      }
+    ],
+    "severity": "MEDIUM"
+  },
+  "type_issues": [],
+  "outliers": [
+    {
+      "column": "Unit_Price",
+      "method": "IQR",
+      "count": 6,
+      "percentage": 4.44,
+      "expected_range": [
+        -211.51,
+        757.22
+      ],
+      "values": [
+        999999.99
+      ],
+      "row_indices": [
+        4,
+        10,
+        41,
+        82,
+        108,
+        115
+      ],
+      "severity": "MEDIUM"
+    },
+    {
+      "column": "Total_Amount",
+      "method": "IQR",
+      "count": 8,
+      "percentage": 5.93,
+      "expected_range": [
+        -9654.97,
+        21570.98
+      ],
+      "values": [
+        22012.32,
+        23188.86,
+        999999.99,
+        21999999.78,
+        29999999.7,
+        41999999.58,
+        46999999.53,
+        48999999.51
+      ],
+      "row_indices": [
+        4,
+        10,
+        20,
+        41,
+        82,
+        85,
+        108,
+        115
+      ],
+      "severity": "HIGH"
+    }
+  ],
+  "structural_issues": [],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Sentinel/placeholder values in Unit_Price (999999.99)",
+      "action": "Replace 6 rows with 999999.99 Unit_Price with NULL or actual values. These propagate into Total_Amount creating values up to ~$49M.",
+      "impact": "Blocks accurate aggregate analysis (sums, averages)"
+    },
+    {
+      "priority": 2,
+      "issue": "14 exact duplicate rows (10.4% of data)",
+      "action": "Remove duplicate rows (concentrated in rows 120-134, likely accidental double-load of a batch)",
+      "impact": "Inflates counts and distorts metrics"
+    },
+    {
+      "priority": 3,
+      "issue": "Type inconsistency in Quantity column (text value 'ten')",
+      "action": "Convert 'ten' to 10 and cast Quantity column to integer type",
+      "impact": "Blocks numeric operations on Quantity column"
+    },
+    {
+      "priority": 4,
+      "issue": "Missing values in 4 columns (11-15%): Vendor_Name, Unit_Price, Total_Amount, Ship_Date",
+      "action": "Investigate source system for recoverable values. For Ship_Date, check if missing values correlate with CANCELLED/PENDING status.",
+      "impact": "May lead to biased analysis and incomplete reporting"
+    },
+    {
+      "priority": 5,
+      "issue": "No ingestion-level validation rules",
+      "action": "Add constraints: numeric types for Quantity/Price, unique Order_ID, price range limits",
+      "impact": "Prevents recurrence of current issues"
+    }
+  ]
+}

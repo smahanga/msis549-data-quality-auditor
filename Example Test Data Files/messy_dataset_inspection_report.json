@@ -1,0 +1,299 @@
+{
+  "summary": {
+    "total_rows": 183,
+    "total_columns": 11,
+    "quality_score": 0,
+    "completeness_pct": 80.03,
+    "issues_found": 17
+  },
+  "missing_values": [
+    {
+      "column": "Order_ID",
+      "count": 3,
+      "percentage": 1.64,
+      "severity": "LOW",
+      "pattern": "Clustered (consecutive rows)"
+    },
+    {
+      "column": "Order_Date",
+      "count": 3,
+      "percentage": 1.64,
+      "severity": "LOW",
+      "pattern": "Clustered (consecutive rows)"
+    },
+    {
+      "column": "Vendor_Name",
+      "count": 3,
+      "percentage": 1.64,
+      "severity": "LOW",
+      "pattern": "Clustered (consecutive rows)"
+    },
+    {
+      "column": "Unit_Price",
+      "count": 3,
+      "percentage": 1.64,
+      "severity": "LOW",
+      "pattern": "Clustered (consecutive rows)"
+    },
+    {
+      "column": "Quantity",
+      "count": 3,
+      "percentage": 1.64,
+      "severity": "LOW",
+      "pattern": "Clustered (consecutive rows)"
+    },
+    {
+      "column": "Total_Amount",
+      "count": 102,
+      "percentage": 55.74,
+      "severity": "HIGH",
+      "pattern": "Clustered (consecutive rows)"
+    },
+    {
+      "column": "Currency",
+      "count": 3,
+      "percentage": 1.64,
+      "severity": "LOW",
+      "pattern": "Clustered (consecutive rows)"
+    },
+    {
+      "column": "Warehouse_ID",
+      "count": 3,
+      "percentage": 1.64,
+      "severity": "LOW",
+      "pattern": "Clustered (consecutive rows)"
+    },
+    {
+      "column": "Ship_Date",
+      "count": 93,
+      "percentage": 50.82,
+      "severity": "HIGH",
+      "pattern": "Clustered (consecutive rows)"
+    },
+    {
+      "column": "Status",
+      "count": 3,
+      "percentage": 1.64,
+      "severity": "LOW",
+      "pattern": "Clustered (consecutive rows)"
+    },
+    {
+      "column": "Unused_Field",
+      "count": 183,
+      "percentage": 100.0,
+      "severity": "HIGH",
+      "pattern": "Clustered (consecutive rows)"
+    }
+  ],
+  "duplicates": {
+    "exact_duplicates": 42,
+    "duplicate_groups": [
+      {
+        "rows": [
+          16,
+          139,
+          179
+        ],
+        "count": 3
+      },
+      {
+        "rows": [
+          21,
+          150
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          24,
+          164
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          29,
+          159
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          35,
+          138,
+          178
+        ],
+        "count": 3
+      },
+      {
+        "rows": [
+          36,
+          135,
+          175
+        ],
+        "count": 3
+      },
+      {
+        "rows": [
+          37,
+          140
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          40,
+          126,
+          166
+        ],
+        "count": 3
+      },
+      {
+        "rows": [
+          48,
+          161
+        ],
+        "count": 2
+      },
+      {
+        "rows": [
+          49,
+          176
+        ],
+        "count": 2
+      }
+    ],
+    "severity": "HIGH"
+  },
+  "type_issues": [
+    {
+      "column": "Quantity",
+      "expected_type": "positive numeric",
+      "inconsistent_count": 10,
+      "examples": [
+        -5.0,
+        -5.0,
+        -5.0,
+        -5.0,
+        -5.0
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "column": "Total_Amount",
+      "expected_type": "positive numeric",
+      "inconsistent_count": 4,
+      "examples": [
+        -0.05,
+        -1149.45,
+        -248.85,
+        -234.1
+      ],
+      "severity": "HIGH"
+    }
+  ],
+  "outliers": [
+    {
+      "column": "Total_Amount",
+      "method": "IQR",
+      "count": 6,
+      "percentage": 7.41,
+      "values": [
+        4000000.0,
+        16000000.0,
+        20000000.0,
+        26000000.0,
+        28000000.0
+      ],
+      "row_indices": [
+        3,
+        131,
+        136,
+        154,
+        157,
+        171
+      ],
+      "bounds": {
+        "lower": -16412.22,
+        "upper": 28596.26
+      },
+      "severity": "HIGH"
+    }
+  ],
+  "structural_issues": [
+    {
+      "type": "empty_rows",
+      "count": 3,
+      "row_indices": [
+        180,
+        181,
+        182
+      ],
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "empty_columns",
+      "columns": [
+        "Unused_Field"
+      ],
+      "count": 1,
+      "severity": "MEDIUM"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Type issue in 'Quantity': positive numeric",
+      "action": "Fix 10 inconsistent values",
+      "impact": "Blocks numeric/date analysis"
+    },
+    {
+      "priority": 2,
+      "issue": "Type issue in 'Total_Amount': positive numeric",
+      "action": "Fix 4 inconsistent values",
+      "impact": "Blocks numeric/date analysis"
+    },
+    {
+      "priority": 3,
+      "issue": "42 exact duplicate rows",
+      "action": "Remove duplicates, keeping first occurrence",
+      "impact": "Inflates counts and distorts metrics"
+    },
+    {
+      "priority": 4,
+      "issue": "Structural: empty_rows",
+      "action": "Remove 3 empty rows",
+      "impact": "Data hygiene"
+    },
+    {
+      "priority": 5,
+      "issue": "Structural: empty_columns",
+      "action": "Remove 1 empty columns",
+      "impact": "Data hygiene"
+    },
+    {
+      "priority": 6,
+      "issue": "102 missing in 'Total_Amount' (55.74%)",
+      "action": "Impute, recover from source, or flag for review",
+      "impact": "Reduces completeness and may bias analysis"
+    },
+    {
+      "priority": 7,
+      "issue": "93 missing in 'Ship_Date' (50.82%)",
+      "action": "Impute, recover from source, or flag for review",
+      "impact": "Reduces completeness and may bias analysis"
+    },
+    {
+      "priority": 8,
+      "issue": "183 missing in 'Unused_Field' (100.0%)",
+      "action": "Impute, recover from source, or flag for review",
+      "impact": "Reduces completeness and may bias analysis"
+    },
+    {
+      "priority": 9,
+      "issue": "6 outliers in 'Total_Amount'",
+      "action": "Verify if legitimate; cap, remove, or flag",
+      "impact": "May distort statistics"
+    }
+  ]
+}

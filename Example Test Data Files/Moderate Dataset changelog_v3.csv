@@ -1,0 +1,9 @@
+row_index,column,old_value,new_value,operation,reason
+42,Order_Date,Jan-31-24,2024-01-31,type_conversion,Wrong date format 'Jan-31-24' converted to '2024-01-31'
+10,Order_Date,Jan 99 99,2024-02-18,type_conversion,Malformed 'Jan 99 99' inferred from Ship_Date (2024-02-23) minus 5-day median lead
+96,Order_Date,Jan 99 99,2024-01-18,type_conversion,Malformed 'Jan 99 99' inferred from Ship_Date (2024-01-23) minus 5-day median lead
+120,Order_Date,Jan 99 99,2024-01-29,type_conversion,Malformed 'Jan 99 99' inferred from Ship_Date (2024-02-03) minus 5-day median lead
+25,Unit_Price_outlier_flag,,1,outlier_flagged,"Unit_Price=-328.03 outside IQR range [-242.00, 768.40] — original value preserved"
+20,Total_Amount_outlier_flag,,1,outlier_flagged,"Total_Amount=22012.32 outside IQR range [-9335.12, 19731.76] — original value preserved"
+25,Total_Amount_outlier_flag,,1,outlier_flagged,"Total_Amount=-11481.05 outside IQR range [-9335.12, 19731.76] — original value preserved"
+85,Total_Amount_outlier_flag,,1,outlier_flagged,"Total_Amount=23188.86 outside IQR range [-9335.12, 19731.76] — original value preserved"

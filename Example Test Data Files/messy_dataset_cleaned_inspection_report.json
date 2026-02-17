@@ -1,0 +1,179 @@
+{
+  "summary": {
+    "total_rows": 137,
+    "total_columns": 11,
+    "quality_score": 0,
+    "completeness_pct": 70.07,
+    "issues_found": 9
+  },
+  "missing_values": [
+    {
+      "column": "Vendor_Name",
+      "count": 62,
+      "percentage": 45.26,
+      "severity": "HIGH",
+      "pattern": "Periodic/regular"
+    },
+    {
+      "column": "Unit_Price",
+      "count": 75,
+      "percentage": 54.74,
+      "severity": "HIGH",
+      "pattern": "Clustered (consecutive rows)"
+    },
+    {
+      "column": "Total_Amount",
+      "count": 75,
+      "percentage": 54.74,
+      "severity": "HIGH",
+      "pattern": "Clustered (consecutive rows)"
+    },
+    {
+      "column": "Ship_Date",
+      "count": 69,
+      "percentage": 50.36,
+      "severity": "HIGH",
+      "pattern": "Periodic/regular"
+    },
+    {
+      "column": "Status",
+      "count": 43,
+      "percentage": 31.39,
+      "severity": "HIGH",
+      "pattern": "Random distribution"
+    },
+    {
+      "column": "Total_Amount_Flag",
+      "count": 127,
+      "percentage": 92.7,
+      "severity": "HIGH",
+      "pattern": "Clustered (consecutive rows)"
+    }
+  ],
+  "duplicates": {
+    "exact_duplicates": 0,
+    "duplicate_groups": [],
+    "severity": "NONE"
+  },
+  "type_issues": [
+    {
+      "column": "Total_Amount",
+      "expected_type": "positive numeric",
+      "inconsistent_count": 4,
+      "examples": [
+        -0.05,
+        -1149.45,
+        -248.85,
+        -234.1
+      ],
+      "severity": "HIGH"
+    }
+  ],
+  "outliers": [
+    {
+      "column": "Unit_Price",
+      "method": "IQR",
+      "count": 6,
+      "percentage": 9.68,
+      "values": [
+        2000000.0
+      ],
+      "row_indices": [
+        3,
+        126,
+        128,
+        130,
+        132,
+        134
+      ],
+      "bounds": {
+        "lower": -357.44,
+        "upper": 838.99
+      },
+      "severity": "HIGH"
+    },
+    {
+      "column": "Total_Amount",
+      "method": "IQR",
+      "count": 6,
+      "percentage": 9.68,
+      "values": [
+        4000000.0,
+        16000000.0,
+        20000000.0,
+        26000000.0,
+        28000000.0
+      ],
+      "row_indices": [
+        3,
+        126,
+        128,
+        130,
+        132,
+        134
+      ],
+      "bounds": {
+        "lower": -14493.47,
+        "upper": 26987.5
+      },
+      "severity": "HIGH"
+    }
+  ],
+  "structural_issues": [],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Type: positive numeric in 'Total_Amount'",
+      "action": "Fix 4 values",
+      "impact": "Blocks analysis"
+    },
+    {
+      "priority": 2,
+      "issue": "62 missing in 'Vendor_Name' (45.26%)",
+      "action": "Recover from source or impute",
+      "impact": "Reduces completeness"
+    },
+    {
+      "priority": 3,
+      "issue": "75 missing in 'Unit_Price' (54.74%)",
+      "action": "Recover from source or impute",
+      "impact": "Reduces completeness"
+    },
+    {
+      "priority": 4,
+      "issue": "75 missing in 'Total_Amount' (54.74%)",
+      "action": "Recover from source or impute",
+      "impact": "Reduces completeness"
+    },
+    {
+      "priority": 5,
+      "issue": "69 missing in 'Ship_Date' (50.36%)",
+      "action": "Recover from source or impute",
+      "impact": "Reduces completeness"
+    },
+    {
+      "priority": 6,
+      "issue": "43 missing in 'Status' (31.39%)",
+      "action": "Recover from source or impute",
+      "impact": "Reduces completeness"
+    },
+    {
+      "priority": 7,
+      "issue": "127 missing in 'Total_Amount_Flag' (92.7%)",
+      "action": "Recover from source or impute",
+      "impact": "Reduces completeness"
+    },
+    {
+      "priority": 8,
+      "issue": "6 outliers in 'Unit_Price'",
+      "action": "Verify, cap, or flag",
+      "impact": "May distort statistics"
+    },
+    {
+      "priority": 9,
+      "issue": "6 outliers in 'Total_Amount'",
+      "action": "Verify, cap, or flag",
+      "impact": "May distort statistics"
+    }
+  ]
+}

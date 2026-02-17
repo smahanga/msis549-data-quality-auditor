@@ -1,0 +1,7 @@
+"Order_ID","Order_Date","Vendor_ID","Vendor_Name","Unit_Price","Quantity","Total_Amount","Currency","Warehouse_ID","Ship_Date","Status"
+"ORD-1001","2024-01-15","V-882","Acme  Corp  ","150.00","10","1500.00","USD","WH-NY","2024-01-20","SHIPPED"
+"ORD-1002","15/01/2024","V-901","Globex_Inc","-50.00","5","-250.00","EUR","WH-TX","","PENDING"
+"ORD-1003","Jan 16 24","V-882","Acme Corp","200.00","-2","-400.00","USD","WH-CA","2024-01-18","RETURN"
+"ORD-1004","2026-12-01","V-777","Stark Ind","50000.00","1","50000.00","GBP","WH-NY","2024-02-01","SHIPPED"
+"ORD-1005","","V-999"," Wayne Ent ","120.00","20","2400.00","$","WH-UNK","","SHIPPED"
+"ORD-1006","2024-01-17","V-882","Acme Corp","150.00","10","1500.00","USD","WH-NY","2024-01-20","SHIPPED"

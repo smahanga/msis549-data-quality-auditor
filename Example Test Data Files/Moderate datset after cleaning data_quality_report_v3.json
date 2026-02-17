@@ -1,0 +1,239 @@
+{
+  "summary": {
+    "total_rows": 121,
+    "total_columns": 12,
+    "core_columns": 10,
+    "flag_columns": 2,
+    "memory_kb": 50.7,
+    "columns": [
+      {
+        "name": "Order_ID",
+        "dtype": "str",
+        "non_null": 121,
+        "unique": 120,
+        "sample_values": [
+          "ORD-1000",
+          "ORD-1001",
+          "ORD-1002"
+        ]
+      },
+      {
+        "name": "Order_Date",
+        "dtype": "str",
+        "non_null": 121,
+        "unique": 63,
+        "sample_values": [
+          "2024-01-09",
+          "2024-03-10",
+          "2024-02-28"
+        ]
+      },
+      {
+        "name": "Vendor_Name",
+        "dtype": "str",
+        "non_null": 106,
+        "unique": 5,
+        "sample_values": [
+          "Wayne Ent",
+          "Acme Corp",
+          "Acme Corp"
+        ]
+      },
+      {
+        "name": "Unit_Price",
+        "dtype": "float64",
+        "non_null": 101,
+        "unique": 100,
+        "sample_values": [
+          "390.6",
+          "71.6",
+          "270.35"
+        ]
+      },
+      {
+        "name": "Quantity",
+        "dtype": "int64",
+        "non_null": 121,
+        "unique": 45,
+        "sample_values": [
+          "15",
+          "33",
+          "45"
+        ]
+      },
+      {
+        "name": "Total_Amount",
+        "dtype": "float64",
+        "non_null": 97,
+        "unique": 96,
+        "sample_values": [
+          "5859.0",
+          "2362.8",
+          "12165.75"
+        ]
+      },
+      {
+        "name": "Currency",
+        "dtype": "str",
+        "non_null": 121,
+        "unique": 3,
+        "sample_values": [
+          "USD",
+          "EUR",
+          "GBP"
+        ]
+      },
+      {
+        "name": "Warehouse_ID",
+        "dtype": "str",
+        "non_null": 121,
+        "unique": 4,
+        "sample_values": [
+          "WH-CA",
+          "WH-FL",
+          "WH-CA"
+        ]
+      },
+      {
+        "name": "Ship_Date",
+        "dtype": "str",
+        "non_null": 101,
+        "unique": 62,
+        "sample_values": [
+          "2024-01-13",
+          "2024-03-17",
+          "2024-03-05"
+        ]
+      },
+      {
+        "name": "Status",
+        "dtype": "str",
+        "non_null": 121,
+        "unique": 4,
+        "sample_values": [
+          "SHIPPED",
+          "PENDING",
+          "SHIPPED"
+        ]
+      },
+      {
+        "name": "Unit_Price_outlier_flag",
+        "dtype": "float64",
+        "non_null": 101,
+        "unique": 2,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "Total_Amount_outlier_flag",
+        "dtype": "float64",
+        "non_null": 97,
+        "unique": 2,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      }
+    ],
+    "quality_score": 73,
+    "completeness_pct": 93.5,
+    "issues_found": 6
+  },
+  "missing_values": [
+    {
+      "column": "Vendor_Name",
+      "count": 15,
+      "percentage": 12.4,
+      "severity": "MEDIUM",
+      "pattern": "Random distribution"
+    },
+    {
+      "column": "Unit_Price",
+      "count": 20,
+      "percentage": 16.53,
+      "severity": "MEDIUM",
+      "pattern": "Random distribution"
+    },
+    {
+      "column": "Total_Amount",
+      "count": 24,
+      "percentage": 19.83,
+      "severity": "MEDIUM",
+      "pattern": "Random distribution"
+    },
+    {
+      "column": "Ship_Date",
+      "count": 20,
+      "percentage": 16.53,
+      "severity": "MEDIUM",
+      "pattern": "Random distribution"
+    }
+  ],
+  "duplicates": {
+    "exact_duplicates": 0,
+    "duplicate_groups": [],
+    "severity": "NONE"
+  },
+  "type_issues": [],
+  "outliers": [
+    {
+      "column": "Unit_Price",
+      "method": "IQR",
+      "count": 1,
+      "percentage": 0.83,
+      "expected_range": [
+        -242.0,
+        768.4
+      ],
+      "values": [
+        -328.03
+      ],
+      "row_indices": [
+        25
+      ],
+      "severity": "LOW",
+      "already_flagged": true
+    },
+    {
+      "column": "Total_Amount",
+      "method": "IQR",
+      "count": 3,
+      "percentage": 2.48,
+      "expected_range": [
+        -9335.12,
+        19731.76
+      ],
+      "values": [
+        -11481.05,
+        22012.32,
+        23188.86
+      ],
+      "row_indices": [
+        20,
+        25,
+        85
+      ],
+      "severity": "MEDIUM",
+      "already_flagged": true
+    }
+  ],
+  "structural_issues": [],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Missing values in 4 columns: Vendor_Name, Unit_Price, Total_Amount, Ship_Date",
+      "action": "Recover from source system or apply appropriate imputation",
+      "impact": "May lead to biased analysis and incomplete reporting"
+    },
+    {
+      "priority": 2,
+      "issue": "Outliers in 2 column(s) already flagged with indicator columns",
+      "action": "Use flag columns to filter during analysis as needed",
+      "impact": "Already handled \u2014 no further action required"
+    }
+  ]
+}
